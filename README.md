@@ -24,7 +24,7 @@
   - `source /opt/ros/noetic/setup.bash`
   - `cd ~/catkin_ws/src`
   - `catkin_make`
-- **build with OpenCV installed by yourself(install in `/usr/local`)**
+- **build with OpenCV installed by yourself *(install in `/usr/local`)***
   - `gedit camera_models/CMakeLists.txt`
   - Modify `set(OpenCV_DIR "/usr/local/lib/cmake/opencv4")`
   - `gedit loop_fusion/CMakeLists.txt`
