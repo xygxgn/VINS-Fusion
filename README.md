@@ -47,6 +47,8 @@
 - **play rosbag**
   - `rosbag play MH_01_easy.bag`
 
+If you find this work useful or interesting, please kindly give us a star :star:, thanks!
+
 
 # VINS-Fusion
 ## An optimization-based multi-sensor state estimator
