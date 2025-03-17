@@ -180,9 +180,7 @@ void pubOdometry(const Estimator &estimator, const std_msgs::Header &header)
 
         ofstream foutC(VINS_RESULT_PATH, ios::app);
         foutC.setf(ios::fixed, ios::floatfield);
-        foutC.precision(0);
         foutC << std::setprecision(6) << header.stamp.toSec() << " ";
-        foutC.precision(5);
         foutC << std::setprecision(8) 
               << estimator.Ps[WINDOW_SIZE].x() << " "
               << estimator.Ps[WINDOW_SIZE].y() << " "
